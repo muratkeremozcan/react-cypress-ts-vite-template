@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
       # Note: when wanting to cache Cypress as well as node_modules, use cypress-io/github-action
       # with it, there is no need to setup node, and Cypress is cached.
@@ -40,6 +42,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
       # - uses: bahmutov/npm-install@v1.8.25
       #   with: {useRollingCache: true}
       #   env:
@@ -72,6 +76,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
       # - uses: bahmutov/npm-install@v1.8.25
       #   with: {useRollingCache: true}
       #   env:
@@ -89,6 +95,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
       # - uses: bahmutov/npm-install@v1.8.25
       #   with: {useRollingCache: true}
       #   env:
@@ -111,6 +119,8 @@ jobs:
     # container: cypress/included:10.11.0 #  no need when using cypress gha to install dependencies
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
       # - uses: bahmutov/npm-install@v1.8.25 # save time on dependencies
       #   with: {useRollingCache: true}
@@ -158,6 +168,8 @@ jobs:
     # container: cypress/included:10.11.0 # no need when using cypress gha to install dependencies
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
       # - uses: bahmutov/npm-install@v1.8.25 # save time on dependencies
       #   with: {useRollingCache: true}

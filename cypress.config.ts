@@ -11,7 +11,7 @@ export default defineConfig({
   },
   e2e: {
     specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
-    baseUrl: 'http://localhost:5173',
+    baseUrl: 'http://localhost:3000',
     setupNodeEvents(on, config) {
       tasks(on)
       return plugins(on, config)

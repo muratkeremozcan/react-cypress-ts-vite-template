@@ -1,6 +1,6 @@
 [![unit-lint-typecheck-e2e-ct](https://github.com/muratkeremozcan/react-cypress-ts-vite-template/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/muratkeremozcan/react-cypress-ts-vite-template/actions/workflows/main.yml)
 ![react version](https://img.shields.io/badge/react-18.3.1-brightgreen)
-![cypress version](https://img.shields.io/badge/cypress-13.13.2-brightgreen)
+![cypress version](https://img.shields.io/badge/cypress-13.13.3-brightgreen)
 ![typescript version](https://img.shields.io/badge/typescript-4.3.2-brightgreen)
 ![jest version](https://img.shields.io/badge/jest-27.3.1-brightgreen)
 ![eslint version](https://img.shields.io/badge/eslint-8.57.0-brightgreen)

@@ -1,8 +1,8 @@
 [![unit-lint-typecheck-e2e-ct](https://github.com/muratkeremozcan/react-cypress-ts-vite-template/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/muratkeremozcan/react-cypress-ts-vite-template/actions/workflows/main.yml)
 ![react version](https://img.shields.io/badge/react-18.3.1-brightgreen)
-![cypress version](https://img.shields.io/badge/cypress-13.14.0-brightgreen)
+![cypress version](https://img.shields.io/badge/cypress-13.14.2-brightgreen)
 ![typescript version](https://img.shields.io/badge/typescript-4.3.2-brightgreen)
-![jest version](https://img.shields.io/badge/jest-27.3.1-brightgreen)
+![jest version](https://img.shields.io/badge/jest-29.7.0-brightgreen)
 ![eslint version](https://img.shields.io/badge/eslint-8.57.0-brightgreen)
 ![prettier version](https://img.shields.io/badge/prettier-2.8.8-brightgreen)
 [![renovate-app badge][renovate-badge]][renovate-app]

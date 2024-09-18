@@ -2,7 +2,12 @@
   "compilerOptions": {
     "target": "esnext",
     "lib": ["esnext", "dom"],
-    "types": ["cypress", "node", "@testing-library/cypress"],
+    "types": [
+      "cypress",
+      "node",
+      "@testing-library/cypress",
+      "cypress-data-session"
+    ],
     "baseUrl": "./",
     "paths": {
       "@support/*": ["support/*"],

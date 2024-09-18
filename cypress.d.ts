@@ -22,16 +22,6 @@ declare global {
         args?: any,
       ): Chainable<JQuery<HTMLElement>>
 
-      /** Yields the element that partially matches the css class
-       * ```
-       * cy.getByClassLike('StyledIconBase') // where the class is class="StyledIconBase-ea9ulj-0 lbJwfL"
-       * ```
-       */
-      getByClassLike(
-        qaSelector: string,
-        args?: any,
-      ): Chainable<JQuery<HTMLElement>>
-
       /** Mounts a React node
        * @param component React Node to mount
        * @param options Additional options to pass into mount

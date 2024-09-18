@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 import {defineConfig} from 'cypress'
 import {baseConfig} from './base.config'
 import path from 'node:path'
@@ -12,7 +13,7 @@ const config = {
     env: {
       ENVIRONMENT: 'local',
     },
-    baseUrl: 'http://localhost:3000', // use ${process.env.PORT} later
+    baseUrl: 'http://localhost:3000', // can set to ${process.env.PORT} later
   },
   component: {
     experimentalJustInTimeCompile: true,

@@ -62,7 +62,7 @@
     "lint-staged": "15.4.3",
     "lodash": "^4.17.21",
     "npm-run-all2": "7.0.2",
-    "prettier": "3.4.2",
+    "prettier": "3.5.0",
     "start-server-and-test": "2.0.10",
     "ts-jest": "29.2.5",
     "ts-node": "10.9.2",

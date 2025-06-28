@@ -46,7 +46,7 @@
     "cypress": "13.17.0",
     "cypress-data-session": "^2.8.5",
     "cypress-map": "^1.40.0",
-    "dotenv": "^16.4.5",
+    "dotenv": "^17.0.0",
     "eslint": "8.57.1",
     "eslint-config-prettier": "10.1.5",
     "eslint-import-resolver-typescript": "4.4.4",

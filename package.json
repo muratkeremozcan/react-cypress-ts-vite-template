@@ -26,7 +26,7 @@
   "devDependencies": {
     "@bahmutov/cy-api": "^2.2.6",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
-    "@cypress/grep": "4.1.1",
+    "@cypress/grep": "5.1.0",
     "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
     "@faker-js/faker": "10.2.0",
